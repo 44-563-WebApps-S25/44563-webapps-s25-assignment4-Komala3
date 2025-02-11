@@ -3,12 +3,20 @@
     font-size: 16px;
     color: black;
   }
-  .stage-direction {
+ 
+.stage-direction {
     font-family: 'Times New Roman', serif;
     font-size: 14px;
     color: black;
-    background-color: lightgray;
+    background-color: lightgray; 
+    padding: 5px;
   }
+    
+  .stage-direction:hover {
+    background-color: rgb(166, 255, 0);  
+    color: rgb(255, 0, 234);                
+  }
+  
   .name {
     font-family: 'Georgia', serif;
     font-size: 18px;
@@ -24,3 +32,37 @@
     color: green;
   }
         
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+  }
+  
+  
+  th {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 16px; 
+    text-align: center; 
+    font-size: 15px; 
+  }
+  
+  
+  td {
+    border: 3px solid #ddd; 
+    padding: 8px; 
+    text-align: center; 
+    font-size: 14px; 
+  }
+  
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  
+  tr:hover {
+    background-color: #dddddd; 
+  }
+  
