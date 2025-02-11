@@ -1,0 +1,26 @@
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+  }
+  .stage-direction {
+    font-family: 'Times New Roman', serif;
+    font-size: 14px;
+    color: black;
+    background-color: lightgray;
+  }
+  .name {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .COUNTESS {
+    color: maroon;
+  }
+  .BERTRAM {
+    color: orange;
+  }
+  .LAFEU {
+    color: green;
+  }
+        
